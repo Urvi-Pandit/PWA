@@ -3,3 +3,7 @@ if('serviceWorker' in navigator){
         .then((reg) => console.log('Service Worker registered!', reg))
         .catch((err) => console.log('Service worker not registered', err));
 }
+
+navigator.serviceWorker.ready.then((swRegistration) => {
+    return swRegistration.sync.register('event1')
+  });
