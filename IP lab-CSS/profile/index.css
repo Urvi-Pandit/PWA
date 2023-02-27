@@ -1,0 +1,72 @@
+body {
+    color: aliceblue;
+    background-image: linear-gradient(to right,#0b090a, #161a1d);
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.text {
+    text-align: center;
+}
+tr >h3{
+    color:rgba(199, 67, 128, 0.603);
+}
+tr >h1{
+    color: darkkhaki;
+}
+.row {
+    text-align: center;
+}
+.pic {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    filter: contrast(180%);
+    width: 300px;
+    height: 300px;
+    -moz-box-shadow: 0px 6px 5px #ccc;
+    -webkit-box-shadow: 0px 6px 5px #ccc;
+    box-shadow: 0px 6px 5px #ccc;
+  }
+h3 {
+    color: darkkhaki;
+  }
+ul li::before {
+    content: "\2022";
+    color: darkkhaki;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+p {
+    color: rgba(99, 136, 143, 0.904);
+  }
+i {
+    color: white;
+  }
+ul {
+    color: rgba(99, 136, 143, 0.904);
+}
+.bold {
+    color:rgba(199, 67, 128, 0.603)
+}
+.strong {
+    text-align: left; 
+    color:rgba(199, 67, 128, 0.603); 
+    margin-left: auto;
+}
+.insta {
+    width: 35px;
+    height: 35px;
+}
+.mail {
+    width: 35px;
+    height: 35px;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.git {
+    width: 35px;
+    height: 35px;
+    margin-right: 3em;
+}
