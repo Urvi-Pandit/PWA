@@ -13,3 +13,24 @@ self.addEventListener('fetch', evt => {
 self.addEventListener('sync', evt => {
     console.log('sync event', evt);
 });
+
+self.addEventListener('sync', (event) => {
+    if (event.tag == 'event1') {
+      event.waitUntil('event1')
+    }
+  });
+
+self.addEventListener('push', (event) => {
+    console.log('Received a push event', event)
+  
+    const options = {
+      title: 'I got a message for you!',
+      body: 'Here is the body of the message',
+      icon: '/Urvi.jpg',
+      tag: 'tag-for-this-notification',
+    }
+  
+    event.waitUntil(
+      self.registration.showNotification(title, options)
+    )
+});
