@@ -1,0 +1,26 @@
+{
+    "name": "Urvi's Profile",
+    "short_name": "Resume",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#FFFFFF",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/cropped.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/cropped.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/cropped.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        }
+    ]
+}
